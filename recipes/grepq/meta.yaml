@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.4.8" %}
 {% set name = "grepq" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Rbfinch/{{ name }}/archive/refs/tags/{{ name }}-v{{ version }}.tar.gz
-  sha256: 6052c1c9511b6ba05a78edee60d9127ed6721ba1cb2fbd4f344de1b1e7fcc981
+  sha256: 8acfecc70e8d6c12faefa31be87553fab6c9c2763970684afb6bd8609e8db60d
 
 build:
   number: 0
